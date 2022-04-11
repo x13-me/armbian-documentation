@@ -8,7 +8,7 @@ The authoritative list of `board.conf` can be found [here](https://github.com/ar
 
 | board.conf           | Maintainer     | Note(s)  |
 |----------------------|----------------|----------|
-| bananapi             | janprunk       |          |
+| [bananapi](https://forum.armbian.com/tags/bananapi/)             | janprunk       |          |
 | bananapim2plus       | igorpecovnik   |          |
 | bananapim64          | devdotnetorg   |          |
 | bananapipro          | teknoid        |          |
