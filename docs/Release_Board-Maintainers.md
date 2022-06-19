@@ -102,7 +102,7 @@ The authoritative list of `board.conf` can be found [here](https://github.com/ar
 | rock64               | clee           |          |
 | rockpi-4a            | clee           |          |
 | rockpi-4b            |                |          |
-| rockpi-4c            |                |          |
+| rockpi-4c            |  clee          |          |
 | rockpi-e             |                |          |
 | rockpi-s             |                |          |
 | rockpro64            | joekhoobyar    |          |
