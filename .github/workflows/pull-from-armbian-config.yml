@@ -30,8 +30,12 @@ jobs:
         run: |
 
           cd config
-          bin/armbian-configng --doc
-          cp DOCUMENTATION.md ../documentation/docs/User-Guide_Armbian-Config.md
+          tools/config-markdown -u
+          ln -fs Software/Software.user.md docs/User-Guide_Armbian-Config/Software.md
+          ln -fs Software/Software.user.md docs/User-Guide_Armbian-Config/Software.md
+          ln -fs Software/Software.user.md docs/User-Guide_Armbian-Config/Software.md
+          ln -fs Software/Software.user.md docs/User-Guide_Armbian-Config/Software.md
+          rsync --delete -avr docs/. ../documentation/docs/User-Guide_Armbian-Config/
 
       - name: Create Pull Request to documentation
         uses: peter-evans/create-pull-request@v7
